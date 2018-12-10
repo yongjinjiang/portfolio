@@ -1,0 +1,219 @@
+html, body {
+    text-align: center;
+    margin: 0;
+    color: rgb(110, 110, 110);
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 'stronger';
+}
+
+
+.bird{
+    max-height: 30px;
+    padding-bottom: 5px;
+}
+
+.navbar {
+    margin-bottom: 0px;
+}
+
+.navbar-static-top {
+    background-color: rgb(233, 211, 190);
+  }
+
+.nav.navbar-nav li a{
+    color: black;
+}
+.parallax { 
+    /* The image used */
+    background-image: url("images/wall.png");
+    /* Full height */
+    height: 100%;
+
+        /* Create the parallax scrolling effect */
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    
+}
+
+.welcome {
+    padding-top: 5%;
+    padding-left: 20px;
+    font-size: 60px;
+}
+
+.welcome2 {
+    color: grey;
+    padding-left: 20px;
+    padding-bottom: 5%;
+}
+
+.top-image {
+    padding-top: 5%;
+    padding-bottom: 10%;
+}
+
+section {
+    padding-bottom: 10%
+}
+
+h1 {
+    font-size: 50px;
+}
+
+
+
+.pad-bottom {
+    padding-bottom: 5%;
+}
+
+
+
+
+
+
+.box1 {
+    font-size: 18px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.year {
+    width: 10%;
+    height: 25%;
+}
+
+.deg {
+    width: 40%;
+    height: 25%;
+}
+
+.inst {
+    width: 50%;
+    height: 25%;
+}
+
+ul{
+    font-size: 18px;
+    text-align: left; 
+    display: inline-block;
+}
+
+.kli {
+    height: 30px;
+    margin: 10px 0; /* not needed, just to add space between the li's */
+    background: url('egg-bullet.png') no-repeat left center;
+    list-style: none; /* Get rid of the default bullet points */
+    padding-left: 40px; /* Offsets the text. Needs to be at least the width of your image */
+    line-height: 30px; /* Might have to play with this value a bit */
+    
+}
+
+.flexcontainer {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+  @media (max-width: 320px) {
+    .flexcontainer {
+      display: block;
+    }
+  }
+
+  .flex-item {
+    padding: 5px;
+    width: 200px;
+    height: 150px;
+    margin: 10px;
+    line-height: 150px;
+    text-align: center;
+  }
+
+  .kcol {
+    padding-bottom:12px;
+  }
+
+  figcaption {
+      font-size: 25px;
+  }
+
+  .contacts {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+  }
+
+  .thumbnail img {
+    height:250px;
+    width:100%;
+}
+
+.row.display-flex {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .thumbnail {
+    height: 100%;
+  }
+
+  .whitebox {
+      margin: auto;
+    padding: 10px;
+    background-color: white;
+    width: 90%;
+    height: auto;
+}
+
+.s-img {
+    margin: 15px;
+    float: left;
+}
+
+.btn {
+    height: 45px;
+    background-color: rgb(233, 211, 190);
+    font-size: 19px;
+    padding-top: 10px;
+  }
+  
+  .plotcontainer {
+    display: grid;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+  @media (max-width: 320px) {
+    .plotcontainer {
+      display: block;
+    }
+  }
+
+  .plot-item {
+    padding: 5px;
+    width: 25%;
+    height: auto;
+    margin: 10px;
+    text-align: center;
+  }
+
+  .plotbox {
+    margin-right: auto;
+    margin-left: auto;
+     background-color: white;
+    width: 70%;
+    position: relative;
+    top: 30px;
+    margin-bottom: 50px;
+}
