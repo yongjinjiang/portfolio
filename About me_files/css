@@ -22,3 +22,66 @@
   src: local('Quicksand Regular'), local('Quicksand-Regular'), url(https://fonts.gstatic.com/s/quicksand/v8/6xKtdSZaM9iE8KbpRA_hK1QNYuDyPw.woff2) format('woff2');
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
+
+
+
+
+#curly-brace
+{
+  width: 300px;
+  position: absolute;
+  left: 50%;
+  margin-left: -150px;
+  top: 150px;
+}
+
+.brace
+{
+  border-bottom: 5px solid;
+  margin: 0 10%;
+  width: 30%;
+  height: 20px;  
+  float: left;
+}
+
+.brace:before,
+.brace:after
+{
+  content: "";
+  width: 10%;
+  height: 50px;
+  position: absolute;
+  display: block;
+}
+
+#left:before
+{  
+  border-bottom: 5px solid;  
+  border-bottom-left-radius: 20px;
+  margin-left: -10%;
+  margin-top: -30px;
+}
+
+#left:after
+{
+  border-top: 5px solid;
+  border-top-right-radius: 20px;
+  margin-left: 30%;
+  margin-top: 20px;    
+}
+
+#right:before
+{
+  border-top: 5px solid;
+  border-top-left-radius: 20px;
+  margin-left: -10%;
+  margin-top: 20px;
+}
+
+#right:after
+{
+  border-bottom: 5px solid;
+  border-bottom-right-radius: 20px;
+  margin-left: 30%;
+  margin-top: -30px;
+}
