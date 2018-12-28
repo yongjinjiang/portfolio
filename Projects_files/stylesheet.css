@@ -217,3 +217,5 @@ ul{
     top: 30px;
     margin-bottom: 50px;
 }
+
+.caption>p{text-align:justify;} 
